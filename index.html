@@ -36,7 +36,6 @@
         <!--[if IE]>
             <script src="js/html5shiv.min.js"></script>
         <![endif]-->
-        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
         
@@ -150,12 +149,11 @@
                                     <!-- end section title -->
                                     <!-- contact form -->
                                     <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 center-col text-center">
-                                        <form action="javascript:void(0)" method="post">
+                                        <form action="https://formspree.io/aaron@ajdev.co.uk" method="POST">
                                             <input type="text" name="name" id="name" data-email="required" placeholder="*Your Name" class="medium-input alt-font border-radius-4">
                                             <input type="text" name="email" id="email" data-email="required" placeholder="*Your Email" class="medium-input alt-font border-radius-4">
                                             <textarea name="comment" rows="4" id="comment" placeholder="Your Message" class="medium-input alt-font border-radius-4"></textarea>
-                                            <div class="g-recaptcha" data-sitekey="6Le1X2MUAAAAALW7d1Ry2hJimv9Js6M-7w2COIC7"></div>
-                                            <button type="submit" class="tz_submit btn btn-large propClone bg-sky-blue btn-3d tz-text text-white">SEND MESSAGE</button>                      
+                                            <input type="submit" class="tz_submit btn btn-large propClone bg-sky-blue btn-3d tz-text text-white" value="Send">                      
                                         </form>
                                     </div>
                                     <!-- end contact form -->
